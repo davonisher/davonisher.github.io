@@ -3,14 +3,14 @@ title: David Kakanis [davonisher]
 author: David Kakanis
 description: "whateva"
 baseurl: ""
-url: "https://davonisher.com"
+url: "https://davonisher.github.io"
 date_format: "%b %-d, %Y"
 
 # Google services
 google_verification:
 # Use either direct GA implementation or set up GTM account
 # - using both will skew your data (leave blank to not use at all)
-google_analytics: UA-113168316-1
+google_analytics: UA-XXXXXXXX-X
 google_tag_manager:
 # Bing services
 bing_verification:
