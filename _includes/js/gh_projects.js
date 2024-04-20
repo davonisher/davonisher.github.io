@@ -28,7 +28,6 @@ jQuery.fn.getRepos = function (username) {
         function (data) {
             var repos = data.data; /* JSON Parsing */
             const filteredRepos = {};
-            filteredRepos["library-management-slack-bot"] = true;
             
             
             /* alert(repos.length); Only for checking how many items are returned. */
