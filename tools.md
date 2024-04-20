@@ -1,59 +1,74 @@
 ---
-layout: cv
-title: Resumé
-tags: resume
-permalink: /work/
+layout: default
+title: tools
+tags: tools
+permalink: /tools/
 ---
 # David Kakanis
 
-<div id="webaddress">
-<a href="mailto:david.kakanis@hotmail.com">david.kakanis@hotmail.com</a>
-|
-<i class="fa fa-github"></i> <a href="http://github.com/davonisher">davonisher</a>
-|
-<i class="fa fa-twitter"></i> <a href="http://twitter.com/davidisrecent">davidisrecent</a>
-</div>
-
-
-## experience
-
-`2017-`
-__Muntstad__ hiker
-
-
-
-## education
-
-`2015-`
-__Bachelor of Commercial Economics__
-
-***GPA:***  
-
-
 ## projects
 
-### ai tools
+Machine/Devices
+16" Macbook Pro 2019
+
+Code Editor
+VSCode
+Rosé Pine Dawn Theme
+
+Terminal
+
+Light themes are better. At least for my experience.
+
+System Settings
 
 
-__* Please see my Github profile for other projects and pull-request contributions.__
+Productivity Apps
+Tools are useful for everyone. But not if you use many. I've been experimenting, testing and implementing software tools for over 10 years and the following tech stack is the most useful for me. For biggest insight after using thousands of tools is keeping it *very* simple and *super* cheap.
 
-## Technical
+This document is always a work in progress.
 
-* **Python**
-* **Tableau**
-* Git
-* Figma
-* Data Engineering
-* Algorithm Design
-* Database Management
+**Notion calender**
+
+**Notion**
+Using PARA for notes management.
+
+**microsoft to do**
+Just for projects that need an extensive to do list.
+
+**Obsidian**
+Just for my blog.
+
+**Hevy**
+Workout tracker. Automatically uploads to Strava. 
+
+**Figma**
+Design tool. Process flows, simple or heavy design work. 
+
+**Canva**
+Presentation maker. Always using a template.
+
+**ChatGPT**
+Personal assistant and coding mate. Always asking it for advice. Pro subscription very useful.
+Especially its voice function on the mobile is heavily used.
+
+**Spotify**
+Music.
+
+**VScode**
+Code editor.
+
+**Pages**
+Long form documents.
+
+**Arc**
++Arc search. Browser and summarizer.
+
+**Tomito timer**
+Pomodore timer for Mac.
+
+**Notability**
+Note taking on iPad Pro.
 
 
-## Links
-
-* <i class="fa fa-envelope"></i> <a href="mailto:david.kakanis@hotmail.com">david.kakanis@hotmail.com</a><br />
-* <i class="fa fa-github"></i> <a href="http://github.com/davonisher">davonisher</a><br />
-*  <i class="fa fa-twitter"></i> <a href="http://twitter.com/davidisrecent">jonobelotti_IO</a><br />
-
-<!-- ### Footer
-
-Last updated: May 2013 -->
+Reddit - Casual tech related readings
+Others
