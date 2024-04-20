@@ -6,28 +6,22 @@ tags: about
 headshot: /images/headshot.jpg
 ---
 
-### Where I'm from
+### where I'm from
 
-🇦🇺 I was born and raised in the southeast suburbs of Victoria, Australia — a place almost perfecting the ['surbubia as giant nursery'](http://www.paulgraham.com/nerds.html) vision of urban development.
 
-I was raised by a tireless single mother, kept up good grades, and played way too much Call of Duty. I never wanted to program computers, right up until around 23 years old when programming computers became all I wanted to do.
-### What I do now
+### what I do now
 
-Currently, I help build [**modal.com**](https://modal.com), a serverless cloud platform built for developers and data scientists sick of wrestling Kubernetes.
-Scroll down to see some personal dashboard stats powered by Modal!
+Currently, I 
 
-### Where I'm at now
+### where I'm at now
 
-🗽 Today, I live in NYC. When I'm not working, you can find me walking a new part of the five boroughs, or stopped in a park to read. There's a lot to love in this vast, grubby city, and I hope to see all of it by foot.
 
-### What I used to do
 
-I spent 3.5 years at [Canva](https://www.canva.com/), joining when it had almost 300 engineers and leaving when it had about 1800. I joined as a graduate, hobbling around with a broken leg, and ended up as team lead
-of ML Platform. The whole way through I grew under the mentorship of [Greg Roodt](https://www.linkedin.com/in/groodt/).
+### what I used to do
 
-When not doing Data or ML Platform stuff, I spent quite a bit of time working with the [Bazel](https://bazel.build/) build system, and helped maintain the [Python rules](https://github.com/bazelbuild/rules_python) for Bazel. It's the future, get on it.
+[](https://www.linkedin.com/).
 
-Previous to Canva I worked at [Zendesk](https://www.zendesk.com/) on their [Answer Bot](https://www.zendesk.com/answer-bot/) machine learning product, and at [Atlassian](https://www.atlassian.com) as an application developer intern in their reliability/monitoring team.
+
 
 <div id="stats" class="hidden">
 
@@ -35,7 +29,7 @@ Previous to Canva I worked at [Zendesk](https://www.zendesk.com/) on their [Answ
 
 <h2>Just finished.</h2>
 
-<p>Curious what I'm reading? Here's my most recent reads, updating daily. And my <a href="https://www.goodreads.com/user/show/88184044-jonathon-belotti)" target="_blank" rel="noopener noreferrer">Goodreads profile</a> has more history.</p>
+<p>Curious what I'm reading? Here's my most recent reads, updating daily. And my <a href="https://www.goodreads.com/)" target="_blank" rel="noopener noreferrer">Goodreads profile</a> has more history.</p>
 
 <div id="recent-finished-books"></div>
 
