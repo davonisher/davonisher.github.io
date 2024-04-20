@@ -2,7 +2,7 @@
 layout: cv
 title: Resumé
 tags: resume
-permalink: /resume/
+permalink: /work/
 ---
 # Jonathon Belotti
 
