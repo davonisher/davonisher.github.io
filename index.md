@@ -14,7 +14,7 @@ tags: home
 My life consists of programming, doing sports, reading and building stuff.
 I'm bullish on, and a big booster of:
 
-- 🌿💚 [@bazelbuild](https://github.com/bazelbuild/) and generally using functional principles to keep things sane. (I've open-sourced a few tools for the Bazel ecosystem, see [/projects]({{ site.baseurl }}/projects))
+- 
 
 <br>
 
