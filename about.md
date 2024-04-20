@@ -53,6 +53,36 @@ function htmlToElement(html) {
     template.innerHTML = html;
     return template.content.firstChild;
 }
+// Authorization token that must have been created previously. See : https://developer.spotify.com/documentation/web-api/concepts/authorization
+const token = 'BQAuMG1HyjSWC4hwf122Mk7aZiSPLAEiCkUWXDiOkvT10dhvEQ6YYbeDTvtTqIToFqiUO2NDEdcWnPaDQk2d52r7dEtotpqpHgWqRVV1uS0m6bWUeOKWo9eo4GbBMdZIk3c5uNfpWc17om-H0hv6fn626tNJKv-Ao1o3KLzPrXLnDMLPHGrGOZUP_z5IIfF5uRhm29Z5tGCwzE6hQTCJoOoVsChc-UaHPdH2ckmwVyDuOho7NXwNgPzeNR9AOnmjiYM';
+async function fetchWebApi(endpoint, method, body) {
+  const res = await fetch(`https://api.spotify.com/${endpoint}`, {
+    headers: {
+      Authorization: `Bearer ${token}`,
+    },
+    method,
+    body:JSON.stringify(body)
+  });
+  return await res.json();
+}
+
+async function getTopTracks(){
+  // Endpoint reference : https://developer.spotify.com/documentation/web-api/reference/get-users-top-artists-and-tracks
+  return (await fetchWebApi(
+    'v1/me/top/tracks?time_range=long_term&limit=5', 'GET'
+  )).items;
+}
+
+const topTracks = await getTopTracks();
+console.log(
+  topTracks?.map(
+    ({name, artists}) =>
+      `${name} by ${artists.map(artist => artist.name).join(', ')}`
+  )
+);
+
+
+
 
 function populateDashboardHTML(data) {
     const topSpotifyTracksList = document.querySelector('#top-spotify-tracks');
