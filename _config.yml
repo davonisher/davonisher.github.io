@@ -1,7 +1,7 @@
 # Site settings
-title: David Kakanis [davonisher]
+title: David Kakanis
 author: David Kakanis
-description: "whateva"
+description: "personal website"
 baseurl: ""
 url: "https://davonisher.github.io"
 date_format: "%b %-d, %Y"
@@ -10,8 +10,8 @@ date_format: "%b %-d, %Y"
 google_verification:
 # Use either direct GA implementation or set up GTM account
 # - using both will skew your data (leave blank to not use at all)
-google_analytics: UA-XXXXXXXX-X
-google_tag_manager:
+google_analytics: 
+google_tag_manager: GTM-56QKFZHT
 # Bing services
 bing_verification:
 

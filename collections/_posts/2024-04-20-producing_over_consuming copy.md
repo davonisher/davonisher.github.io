@@ -3,7 +3,7 @@ layout: post
 title: 3-3-3 method
 date: 2024-04-20
 summary: 3-3-3 method
-categories: 
+categories: tools
 ---
 
 
