@@ -1,6 +1,25 @@
 ---
 layout: default
 ---
+<script src="three.r134.min.js" defer></script>
+<script src="vanta.fog.min.js" defer></script>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  VANTA.FOG({
+    el: "body",
+    mouseControls: true,
+    touchControls: true,
+    gyroControls: false,
+    minHeight: 200.00,
+    minWidth: 200.00,
+    highlightColor: 0x7a7154,
+    lowlightColor: 0x151222,
+    blurFactor: 0.43,
+    speed: 1.10,
+    zoom: 2.90
+  });
+});
+</script>
 <div>
   <img 
     style="border-radius: 1em; max-width: 250px; float: right; margin: 1.25em;" 
