@@ -631,12 +631,12 @@ td {
 
   .post .meta a,
   .post .meta strong{
-    color: #494949;
+    color: #ff6904;
     font-size: 12px;
     font-weight: bold;
   }
   .post .meta a:hover{
-    color: blue;
+    color: #ff5900;
   }
   .separator {
     width: 460px;
