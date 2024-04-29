@@ -23,4 +23,4 @@ what i like:
 
 <br>
 
-[**see latest blog posts →**]({{ site.baseurl }}/blog)
+[*see latest blog posts →*]({{ site.baseurl }}/blog)
