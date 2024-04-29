@@ -3,7 +3,7 @@ layout: about
 permalink: /about/
 title: a little bit about me
 tags: about
-headshot: images/IMG_3497 2 groot.jpg
+headshot: images/headshot.jpg
 ---
 
 ### where I'm from
@@ -11,7 +11,7 @@ headshot: images/IMG_3497 2 groot.jpg
 
 ### what I do now
 
-Currently, I 
+currently, I 
 
 ### where I'm at now
 
