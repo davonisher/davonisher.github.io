@@ -3,19 +3,24 @@ layout: default
 tags: home
 ---
 
-# Hi, <br/> I'm David Kakanis.
+# hi, <br/> i'm david.
 
-### I'm a data analist with a focus on business.
+### a data analist with a focus on business.
 
-### Currently, I help build [AI tool ranking], to help managers choose the right tool.
+### currently, I help build [AI tool ranking], to help managers choose the right tool.
 
 <br>
 
-My life consists of programming, doing sports, reading and building stuff.
-I'm bullish on, and a big booster of:
+my life consists of programming, doing sports, reading and building stuff.
+what i like:
+
+- software
+- product design
+- reading
+- 
 
 - 
 
 <br>
 
-[**See latest blog posts →**]({{ site.baseurl }}/blog)
+[**see latest blog posts →**]({{ site.baseurl }}/blog)
