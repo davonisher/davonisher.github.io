@@ -52,7 +52,7 @@ __* Please see my Github profile for other projects and pull-request contributio
 
 * <i class="fa fa-envelope"></i> <a href="mailto:david.kakanis@hotmail.com">david.kakanis@hotmail.com</a><br />
 * <i class="fa fa-github"></i> <a href="http://github.com/davonisher">davonisher</a><br />
-*  <i class="fa fa-twitter"></i> <a href="http://twitter.com/davidisrecent">davidisrecent</a><br />
+* <i class="fa fa-twitter"></i> <a href="http://twitter.com/davidisrecent">davidisrecent</a><br />
 
 <!-- ### Footer
 
