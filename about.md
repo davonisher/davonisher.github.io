@@ -3,7 +3,7 @@ layout: about
 permalink: /about/
 title: a little bit about me
 tags: about
-headshot: images/headshot.jpg
+headshot: images/headshot.jpeg
 ---
 
 ### where I'm from
