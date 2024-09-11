@@ -13,7 +13,7 @@ Machine/Devices
 
 Code Editor
 VSCode
-Rosé Pine Dawn Theme
+Grevbox Material Theme
 
 Terminal
 

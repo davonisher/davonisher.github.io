@@ -3,11 +3,11 @@ layout: default
 tags: home
 ---
 
-# hi, <br/> i'm david.
+# hi, <br/> i'm David.
 
-### a data analist with a focus on business.
+### a data analist with a passion for business and technology.
 
-### currently, I help build [AI tool ranking], to help managers choose the right tool.
+### currently, I help build [AI tool ranking], helping managers pick the perfect tool for their needs.
 
 <br>
 
@@ -17,9 +17,8 @@ what i like:
 - software
 - product design
 - reading
-- 
-
-- 
+- sports
+- technology
 
 <br>
 
