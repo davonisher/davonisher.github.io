@@ -1,6 +1,6 @@
 ---
 layout: cv
-title: Resumé
+title: resume
 tags: resume
 permalink: /work/
 ---
