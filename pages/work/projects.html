@@ -3,17 +3,20 @@ layout: default
 title: projects
 tags: projects
 permalink: /projects/
+js:
+  - js/gh_projects.js
+  - js/util_buttons.js
 ---
 
-<h1>Projects</h1>
+<h1>projects</h1>
 
 <p>
-  Projects currently working on
+  projects currently working on
 </p>
 
 <hr />
 
-<h2>Active Projects</h2>
+<h2>active projects</h2>
 
 <a
   style="color: black"
@@ -62,20 +65,9 @@ permalink: /projects/
 
 <hr />
 
-<h2>Public Repos</h2>
+<h2>public repos</h2>
 
 <div id="display-projects"></div>
-
-<hr />
-
-<h2>Pinterest Board</h2>
-
-<p>
-  Bekijk mijn Pinterest board voor meer inspiratie en ideeën.
-</p>
-
-<a data-pin-do="embedBoard" data-pin-board-width="400" data-pin-scale-height="240" data-pin-scale-width="80" href="https://www.pinterest.com/davidkakanis/product-design//"></a>
-<script async defer src="//assets.pinterest.com/js/pinit.js"></script>
 
 <div class="circle-button">
   <div
@@ -99,7 +91,9 @@ permalink: /projects/
 </div>
 
 {% for js in page.js %}
-<script type="text/javascript" src="{{ js }}"></script>
+<script type="text/javascript">
+  {% include {{ js }} %}
+</script>
 {% endfor %}
 
 <script src="https://cdn.jsdelivr.net/emojione/3.0.3/lib/js/emojione.min.js"></script>
@@ -107,7 +101,7 @@ permalink: /projects/
   $(function () {
     $("#display-projects").getRepos(
       "davonisher"
-    ); /* Add your GitHub username. */
+    ); /* Add your github username. */
   });
 </script>
 
@@ -120,3 +114,13 @@ permalink: /projects/
     transform: scale(1.01);
   }
 </style>
+
+<h2>Pinterest board</h2>
+
+<p>
+  Bekijk mijn Pinterest board voor meer inspiratie en ideeën.
+</p>
+
+<a data-pin-do="embedBoard" data-pin-board-width="400" data-pin-scale-height="240" data-pin-scale-width="80" href="https://www.pinterest.com/davidkakanis/product-design//"></a>
+<script async defer src="//assets.pinterest.com/js/pinit.js"></script>
+
