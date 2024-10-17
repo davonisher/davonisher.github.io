@@ -1,4 +1,7 @@
-/* Style for the repository list */
+
+
+
+
 ul.repo-list {
   list-style-type: none;
   padding: 0;
@@ -28,24 +31,6 @@ ul.repo-list li p {
 
 
 
-#display-projects dl dt a {
-  color: black;
-}
-
-#display-projects dl dt a:hover {
-  color: #ff4d00;
-}
-
-dt {
-  	margin-bottom: 5%;
-	border: solid 1px #999;
-	border-radius: 5px;
-	padding: 2%;
-}
-
-dt p {
-	font-weight: 100;
-}
 
 @media screen and (min-width: 770px) {
 	.clients .top-circle {
