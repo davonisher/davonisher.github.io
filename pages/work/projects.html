@@ -162,9 +162,8 @@ permalink: /projects/
 
 <h2>public repos</h2>
 
-<!-- Use Liquid to loop through your repositories -->
 <ul>
-  {% assign filtered_repos = site.github.public_repositories  where_exp: 'repo', "repo.name != 'streamfocus'" %}
+  {% assign filtered_repos = site.github.public_repositories | where_exp: 'repo', "repo.name != 'streamfocus'" %}
   {% for repo in filtered_repos %}
     <li>
       <h3><a href="{{ repo.html_url }}">{{ repo.name }}</a></h3>
