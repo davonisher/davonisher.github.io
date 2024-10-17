@@ -180,6 +180,9 @@ permalink: /projects/
   {% endfor %}
 </ul>
 
+<h2>Debug Information</h2>
+<p>Repository count: {{ site.github.public_repositories | size }}</p>
+<p>Site GitHub Data: {{ site.github | jsonify }}</p>
 
 <div class="circle-button">
   <div
