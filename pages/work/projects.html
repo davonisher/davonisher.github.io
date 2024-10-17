@@ -161,8 +161,9 @@ permalink: /projects/
 <hr />
 
 <h2>public repos</h2>
-
-<ul>
+  
+<ul class="repo-list">
+  <!-- Repository items -->
   {% assign filtered_repos = site.github.public_repositories | where_exp: 'repo', "repo.name != 'streamfocus'" %}
   {% for repo in filtered_repos %}
     <li>
@@ -199,9 +200,6 @@ permalink: /projects/
   </div>
 </div>
 
-<ul class="repo-list">
-  <!-- Repository items -->
-</ul>
 
 
 <style>
@@ -213,3 +211,32 @@ permalink: /projects/
     transform: scale(1.01);
   }
 </style>
+
+
+/* Styles for the repository list */
+ul.repo-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul.repo-list li {
+  margin-bottom: 20px;
+  border: solid 1px #999;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+ul.repo-list li h3 a {
+  color: black;
+  text-decoration: none;
+}
+
+ul.repo-list li h3 a:hover {
+  color: #ff4d00;
+}
+
+ul.repo-list li p {
+  font-weight: 100;
+  margin: 10px 0;
+}
+
