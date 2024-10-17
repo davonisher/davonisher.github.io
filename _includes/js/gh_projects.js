@@ -59,12 +59,6 @@ jQuery.fn.getRepos = function (username) {
             target.empty().append(errElement);
         });
 
-    function sortByForks(repos) {
-        repos.sort(function (a, b) {
-            return b.forks - a.forks; /* Descending order for number of forks based sorting. */
-        });
-    }
-};
 
 
     function mapLangToColor(lang) {
