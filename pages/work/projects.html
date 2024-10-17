@@ -164,6 +164,24 @@ js:
 
 <h2>public repos</h2>
 
+<ul>
+  {% for repo in site.github.public_repositories %}
+    {% unless repo.fork or repo.name == 'streamfocus' %}
+      <li>
+        <h3><a href="{{ repo.html_url }}">{{ repo.name }}</a></h3>
+        <p>{{ repo.description | default: 'No description' }}</p>
+        <p>
+          <strong>Language:</strong> {{ repo.language }}
+          &nbsp;|&nbsp;
+          <strong>Stars:</strong> {{ repo.stargazers_count }}
+          &nbsp;|&nbsp;
+          <strong>Forks:</strong> {{ repo.forks_count }}
+        </p>
+      </li>
+    {% endunless %}
+  {% endfor %}
+</ul>
+
 <div id="display-projects"></div>
 
 <div class="circle-button">
