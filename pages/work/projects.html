@@ -3,9 +3,7 @@ layout: default
 title: projects
 tags: projects
 permalink: /projects/
-js:
-  - js/gh_projects.js
-  - js/util_buttons.js
+
 ---
 
 <h1>projects</h1>
@@ -164,21 +162,21 @@ js:
 
 <h2>public repos</h2>
 
+<!-- Use Liquid to loop through your repositories -->
 <ul>
-  {% for repo in site.github.public_repositories %}
-    {% unless repo.fork or repo.name == 'streamfocus' %}
-      <li>
-        <h3><a href="{{ repo.html_url }}">{{ repo.name }}</a></h3>
-        <p>{{ repo.description | default: 'No description' }}</p>
-        <p>
-          <strong>Language:</strong> {{ repo.language }}
-          &nbsp;|&nbsp;
-          <strong>Stars:</strong> {{ repo.stargazers_count }}
-          &nbsp;|&nbsp;
-          <strong>Forks:</strong> {{ repo.forks_count }}
-        </p>
-      </li>
-    {% endunless %}
+  {% assign filtered_repos = site.github.public_repositories | where: 'fork', false | where_exp: 'repo', "repo.name != 'streamfocus'" %}
+  {% for repo in filtered_repos %}
+    <li>
+      <h3><a href="{{ repo.html_url }}">{{ repo.name }}</a></h3>
+      <p>{{ repo.description | default: 'No description' }}</p>
+      <p>
+        <strong>Language:</strong> {{ repo.language | default: 'N/A' }}
+        &nbsp;|&nbsp;
+        <strong>Stars:</strong> {{ repo.stargazers_count }}
+        &nbsp;|&nbsp;
+        <strong>Forks:</strong> {{ repo.forks_count }}
+      </p>
+    </li>
   {% endfor %}
 </ul>
 
@@ -200,20 +198,7 @@ js:
   </div>
 </div>
 
-{% for js in page.js %}
-<script type="text/javascript">
-  {% include {{ js }} %}
-</script>
-{% endfor %}
 
-<script src="https://cdn.jsdelivr.net/emojione/3.0.3/lib/js/emojione.min.js"></script>
-<script type="text/javascript">
-  $(function () {
-    $("#display-projects").getRepos(
-      "davonisher"
-    ); /* Add your GitHub username. */
-  });
-</script>
 
 <style>
   .active-project {
