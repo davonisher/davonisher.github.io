@@ -23,3 +23,5 @@ what i like:
 <br>
 
 [*see latest blog posts →*]({{ site.baseurl }}/blog)
+
+<meta name="google-site-verification" content="p4luALBt7U3VpA4wl-H5TnbgDJ-O5hP7nSxWrE6_NBo" />
