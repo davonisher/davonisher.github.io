@@ -2,7 +2,7 @@
 title: David Kakanis
 author: David Kakanis
 description: "personal website"
-baseurl: davonisher.com
+baseurl: "/davonisher.github.io"
 url: "https://davonisher.github.io"
 date_format: "%b %-d, %Y"
 
