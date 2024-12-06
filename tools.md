@@ -1,74 +1,73 @@
 ---
 layout: default
-title: tools
+title: Tools
 tags: tools
 permalink: /tools/
 ---
+
 # David Kakanis
 
-## projects
+## tools
 
-Machine/Devices
-16" Macbook Pro 2019
+<div class="container">
+  <div class="box">
+    <h3>Machine/Devices</h3>
+    <ul>
+      <li><strong>16" macbook pro 2019</strong></li>
+    </ul>
+  </div>
 
-Code Editor
-VSCode
-Grevbox Material Theme
+  <div class="box">
+    <h3>Code Editor</h3>
+    <ul>
+      <li><strong>cursor</strong></li>
+      <li>Grevbox Material Theme</li>
+    </ul>
+  </div>
 
-Terminal
+  <div class="box">
+    <h3>Terminal</h3>
+    <p>Light themes are better, at least in my experience.</p>
+  </div>
 
-Light themes are better. At least for my experience.
+  <div class="box">
+    <h3>System Settings</h3>
+    <p>Details about system settings can be added here.</p>
+  </div>
+</div>
 
-System Settings
+## apps
 
+<p>tools are useful for everyone, but not if you use too many. i've been experimenting, testing, and implementing software tools for over 10 years. The following tech stack is the most useful for me. The biggest insight after using thousands of tools is keeping it <em>very</em> simple and <em>super</em> cheap.</p>
 
-Productivity Apps
-Tools are useful for everyone. But not if you use many. I've been experimenting, testing and implementing software tools for over 10 years and the following tech stack is the most useful for me. For biggest insight after using thousands of tools is keeping it *very* simple and *super* cheap.
+<p>This document is always a work in progress.</p>
 
-This document is always a work in progress.
+<div class="container">
+  <div class="box">
+    <ul>
+      <li><strong>Notion Calendar</strong></li>
+      <li><strong>Notion</strong> - Using PARA for notes management.</li>
+      <li><strong>Microsoft To Do</strong> - Just for projects that need an extensive to-do list.</li>
+      <li><strong>Obsidian</strong> - Just for my blog.</li>
+      <li><strong>Hevy</strong> - Workout tracker. Automatically uploads to Strava.</li>
+      <li><strong>Figma</strong> - Design tool for process flows, simple or heavy design work.</li>
+      <li><strong>Canva</strong> - Presentation maker. Always using a template.</li>
+      <li><strong>ChatGPT</strong> - Personal assistant and coding mate. Always asking it for advice. Pro subscription is very useful, especially its voice function on mobile is heavily used.</li>
+      <li><strong>Spotify</strong> - Music.</li>
+      <li><strong>VSCode</strong> - Code editor.</li>
+      <li><strong>Pages</strong> - Long form documents.</li>
+      <li><strong>Arc</strong> - +Arc search. Browser and summarizer.</li>
+      <li><strong>Tomito Timer</strong> - Pomodoro timer for Mac.</li>
+      <li><strong>Notability</strong> - Note-taking on iPad Pro.</li>
+    </ul>
+  </div>
+</div>
 
-**Notion calender**
-
-**Notion**
-Using PARA for notes management.
-
-**microsoft to do**
-Just for projects that need an extensive to do list.
-
-**Obsidian**
-Just for my blog.
-
-**Hevy**
-Workout tracker. Automatically uploads to Strava. 
-
-**Figma**
-Design tool. Process flows, simple or heavy design work. 
-
-**Canva**
-Presentation maker. Always using a template.
-
-**ChatGPT**
-Personal assistant and coding mate. Always asking it for advice. Pro subscription very useful.
-Especially its voice function on the mobile is heavily used.
-
-**Spotify**
-Music.
-
-**VScode**
-Code editor.
-
-**Pages**
-Long form documents.
-
-**Arc**
-+Arc search. Browser and summarizer.
-
-**Tomito timer**
-Pomodore timer for Mac.
-
-**Notability**
-Note taking on iPad Pro.
-
-
-Reddit - Casual tech related readings
-Others
+### others
+<div class="container">
+  <div class="box">
+    <ul>
+      <li><strong>Reddit</strong> - casual tech-related readings.</li>
+    </ul>
+  </div>
+</div>
