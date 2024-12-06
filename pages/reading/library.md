@@ -6,9 +6,6 @@ tags: library read_list
 ---
 
 Selected books that I've read for enjoyment or learning. 
-
-
-
 <section style="display: flex; justify-content: space-between; flex-wrap: wrap">
 {% for member in site.data.library limit:120 %}
     {% if member.review_path %}

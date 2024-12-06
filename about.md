@@ -6,6 +6,7 @@ tags: about
 headshot: images/headshot.jpeg
 ---
 
+
 ### where I'm from
 
 
