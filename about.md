@@ -1,11 +1,24 @@
 ---
-layout: about
+layout: page
+title: about
 permalink: /about/
-title: a little bit about me
 tags: about
 headshot: images/headshot.jpeg
 ---
 
+<style>
+.profile-pic {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto 2rem auto;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+</style>
+
+<img src="/images/big_headshot.jpeg" alt="David Kakanis" class="profile-pic">
 
 ### where I'm from
 born and raised in Utrecht, Netherlands, with a sprinkle of Greek vibes thanks to my family's heritage. i've always been a curious kid, asking questions and trying to figure out how things work.

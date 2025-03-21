@@ -5,9 +5,9 @@ tags: home
 
 # hi, <br/> i'm David.
 
-### a data analist with a passion for business and technology.
+### a data scientist with a passion for business and technology.
 
-### currently, I'm working hard on RankmyAI platform we built to help businesses pick the best AI tools without the hassle. 
+### currently, I'm working hard on [RankmyAI](https://rankmyai.com) platform we built to help businesses pick the best AI tools without the hassle. 
 
 <br>
 
