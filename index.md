@@ -7,7 +7,7 @@ tags: home
 
 ### a data analist with a passion for business and technology.
 
-### currently, I help build [AI tool ranking], helping managers pick the perfect tool for their needs.
+### currently, I'm working hard on RankmyAI platform we built to help businesses pick the best AI tools without the hassle. 
 
 <br>
 
