@@ -20,21 +20,20 @@ headshot: images/headshot.jpeg
 
 <img src="/images/big_headshot.jpeg" alt="David Kakanis" class="profile-pic">
 
-### where I'm from
-born and raised in Utrecht, Netherlands, with a sprinkle of Greek vibes thanks to my family's heritage. i've always been a curious kid, asking questions and trying to figure out how things work.
+### Background
 
+I was born and raised in Utrecht, Netherlands. My family is Greek, and both backgrounds have shaped how I think and work.
 
+### What I do
 
-### what I do now
+I'm a data scientist. I work on [RankMyAI](https://rankmyai.com), a platform I built to help businesses compare and choose AI tools. My work spans data analysis, product development, and translating technical options into decisions teams can act on.
 
-right now, I'm working hard on RankmyAI platform I built to help businesses pick the best AI tools without the hassle. basically, I crunch numbers, dig into data, and make sense of tech so managers don't have to.
+### Where I am
 
-### where I'm at now
+I still live in Utrecht and stay involved in the local startup community. Outside of work, I play sports, cook, follow fashion, and keep up with new technology.
 
-still in Utrecht, staying involved in the digital and startup scene. when I'm not glued to a screen, you'll catch me playing sports, messing around in the kitchen, exploring fashion trends, or trying new gadgets.
+### Before that
 
+Before focusing on AI and product strategy, I handled web development and growth at DeLaptopDiscounter, an e-commerce business my father founded.
 
-### what I used to do
-before diving deep into AI and business strategy, I handled website stuff and growth strategies at DeLaptopDiscounter, an e-commerce shop my dad started.
-
-Wanna connect? [LinkedIn](https://www.linkedin.com/in/{{ site.linkedin_username }}/).
+Connect on [LinkedIn](https://www.linkedin.com/in/{{ site.linkedin_username }}/).

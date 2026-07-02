@@ -58,12 +58,12 @@ plugins:
   - jekyll-sitemap
   - jekyll-github-metadata
 # https://github.com/jekyll/jekyll/issues/2938
-exclude: [vendor]
+exclude: [vendor, pages/reading]
 
 collections_dir: collections
 collections:
   reviews:
-    output: true
+    output: false
   portfolio:
     output: true
 

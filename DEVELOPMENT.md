@@ -60,5 +60,10 @@ See `collections/_posts/_template.md` for the expected fields and comments.
 
 ### Library Pages
 
-Library, anti-library, and book review pages are controlled by `show_library` in `_config.yml`.
-Set `show_library: true` to re-enable the nav link and published reading pages.
+Library, anti-library, and book review pages are hidden by default:
+
+- `show_library: false` in `_config.yml` hides the nav link
+- `pages/reading/` is in the Jekyll `exclude` list so those pages never build
+- Individual reading pages also set `published: false` as a backup
+
+To re-enable later: set `show_library: true`, remove `pages/reading` from `exclude`, set `collections.reviews.output: true`, and set `published: true` on the reading pages.
