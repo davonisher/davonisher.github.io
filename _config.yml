@@ -16,6 +16,7 @@ google_tag_manager: GTM-56QKFZHT
 bing_verification:
 
 # Optional features
+show_library: false
 show_related_posts: True
 show_post_footers: True
 show_subscribe_cta: True

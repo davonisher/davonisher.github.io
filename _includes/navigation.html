@@ -15,9 +15,11 @@
       <li class="beliefs-anc" style="display: inline">
         <a class="nav-underline open-source {% if page.url == '/projects/' %}current{% endif %}" href="{{site.url}}/projects">projects</a>
       </li>
+      {% if site.show_library %}
       <li class="team-anc" style="display: inline">
         <a class="nav-underline library {% if page.url == '/library/' %}current{% endif %}" href="{{site.url}}/library">library</a>
       </li>
+      {% endif %}
       <li class="tools-anc" style="display: inline">
         <a class="nav-underline library {% if page.url == '/tools/' %}current{% endif %}" href="{{site.url}}/tools">tools</a>
       </li>

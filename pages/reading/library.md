@@ -3,6 +3,7 @@ layout: page
 title: Library
 permalink: /library/
 tags: library read_list
+published: false
 ---
 
 Selected books that I've read for enjoyment or learning. 

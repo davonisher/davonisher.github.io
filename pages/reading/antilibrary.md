@@ -3,6 +3,7 @@ layout: page
 title: Anti-Library
 permalink: /anti-library/
 tags: antilibrary library
+published: false
 ---
 
 Books I haven't read, but like the idea of having read, and plan to read in the future.
